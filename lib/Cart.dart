@@ -57,4 +57,9 @@ void removeItem(String productId){
     notifyListeners();
 }
 
+void clear(){
+    _items={};
+    notifyListeners();
+}
+
 }
