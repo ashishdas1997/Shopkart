@@ -24,7 +24,7 @@ class _ProductsOverviewScreenState extends State<ProductsOverviewScreen> {
 //    final productsContainer = Provider.of<ProductsProvider>(context, listen: false);
     return Scaffold(
       appBar: AppBar(
-       title: Text('MyShop'),
+       title: Text('Shopkart'),
         actions: <Widget>[
           PopupMenuButton(
             onSelected: (FilterOptions selectedValue){

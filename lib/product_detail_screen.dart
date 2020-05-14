@@ -29,7 +29,7 @@ class ProductDetailScreen extends StatelessWidget {
             ),
           ),
           SizedBox(height: 10),
-          Text('\$${loadedProduct.price}', style: TextStyle(color: Colors.green,
+          Text('Rs ${loadedProduct.price}', style: TextStyle(color: Colors.green,
           fontSize: 20),),
           SizedBox(height: 10,),
           Container(

@@ -37,6 +37,54 @@ class ProductsProvider with ChangeNotifier{
       imageUrl:
       'https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Cast-Iron-Pan.jpg/1024px-Cast-Iron-Pan.jpg',
     ),
+    Product(
+      id: 'p5',
+      title: 'Almonds',
+      description: 'Some Healthy Almonds',
+      price: 129.99,
+      imageUrl:
+      'https://cdn.pixabay.com/photo/2016/10/25/12/56/almonds-1768792_1280.jpg',
+    ),
+    Product(
+      id: 'p6',
+      title: 'Pocket Clock',
+      description: 'A Pocket Clock',
+      price: 109.99,
+      imageUrl:
+      'https://cdn.pixabay.com/photo/2018/02/24/20/39/clock-3179167_1280.jpg',
+    ),
+    Product(
+      id: 'p7',
+      title: 'Coffee Mug',
+      description: '  A nice stylish Coffee Mug',
+      price: 69.99,
+      imageUrl:
+      'https://cdn.pixabay.com/photo/2016/11/29/12/46/breakfast-1869599_1280.jpg',
+    ),
+    Product(
+      id: 'p8',
+      title: 'Jewellery',
+      description: 'Here is a precious neckpiece from A&A Sons',
+      price: 529.99,
+      imageUrl:
+      'https://cdn.pixabay.com/photo/2017/10/19/11/00/heart-2867205_1280.jpg',
+    ),
+    Product(
+      id: 'p9',
+      title: 'Spectacles',
+      description: 'Here is a trendy Spectacle',
+      price: 50.99,
+      imageUrl:
+      'https://cdn.pixabay.com/photo/2014/08/11/03/51/glasses-415256_1280.jpg',
+    ),
+    Product(
+      id: 'p10',
+      title: 'Pillow',
+      description: "Soft Comfortable Pillows",
+      price: 112.00,
+      imageUrl:
+      'https://cdn.pixabay.com/photo/2015/11/07/11/22/pillows-1031079_1280.jpg',
+    ),
   ];
 //  var _showFavouritesOnly= false;
 

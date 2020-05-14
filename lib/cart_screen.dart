@@ -29,7 +29,7 @@ class CartScreen extends StatelessWidget {
                 ),),
                 Spacer(),
                 Chip(
-                  label: Text('\$${cart.totalAmount.toStringAsFixed(2)}'),
+                  label: Text('Rs ${cart.totalAmount.toStringAsFixed(2)}'),
                   backgroundColor: Theme.of(context).primaryColor,
                 ),
                 FlatButton(child: Text('ORDER NOW',

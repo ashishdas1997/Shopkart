@@ -25,8 +25,8 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: 'MyShop',
         theme: ThemeData(
-            primarySwatch: Colors.yellow,
-            accentColor: Colors.deepOrange,
+            primarySwatch: Colors.amber,
+            accentColor: Colors.red.shade400,
             fontFamily: 'Eczar'),
         home: ProductsOverviewScreen(),
         routes: {
