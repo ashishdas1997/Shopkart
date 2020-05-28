@@ -1,3 +1,5 @@
+This is the first edit in text.
+
 # shopapp
 
 A new Flutter application.
